@@ -1,0 +1,27 @@
+.homepage{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;    
+}
+
+.homepage .left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.homepage .left h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #0243da;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.homepage .left p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+}
