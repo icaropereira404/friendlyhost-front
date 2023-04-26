@@ -6,8 +6,14 @@ const Header = () => {
         <header className="header">
             <div className="logo">
                 <img src={Logo} />
+                <h3>
+                    Friendly
+                    <span className='host'>
+                        Host
+                    </span>
+                </h3>
             </div>
-            <nav>
+            <nav className='nav'>
                 <ul>
                     <a href="">
                         <li>Home</li>
