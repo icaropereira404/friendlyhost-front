@@ -51,6 +51,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        width: 100%;
     }
 
     .homepage .left h1{
