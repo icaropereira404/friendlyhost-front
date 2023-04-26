@@ -3,6 +3,8 @@
     justify-content: space-between;
     height: 12vh;
     background-color: #fff;
+    padding: 0 4rem;
+    box-sizing: border-box;
 }
 .header .logo {
     display: flex;

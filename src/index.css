@@ -1,3 +1,9 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
 body {
-  background-color: #111!important;
+  margin: 0;
+  padding: 0;
 }
