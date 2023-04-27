@@ -1,5 +1,7 @@
-import Header from './components/header/index'
-import Homepage from './components/home'
+import Header from './components/Header/index'
+import AboutUs from './pages/sections/AboutUs'
+import Homepage from './pages/sections/home'
+
 
 function App() {
 
@@ -7,6 +9,7 @@ function App() {
     <>
       <Header />
       <Homepage />
+     <AboutUs />  
     </>
   )
 }

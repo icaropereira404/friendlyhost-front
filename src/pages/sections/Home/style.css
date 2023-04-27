@@ -16,8 +16,9 @@
 .homepage .left h1{
     font-size: 3rem;
     font-weight: bold;
-    color: #0243da;
+    color: #000000d7;;
     font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
 }
 
 .homepage .left p{

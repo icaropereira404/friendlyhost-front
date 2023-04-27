@@ -1,5 +1,5 @@
 import './style.css'
-import Homeicon from '../../assets/house.svg'
+import Homeicon from '../../../assets/house.svg'
 
 const Homepage = () => {
     return (
@@ -7,9 +7,11 @@ const Homepage = () => {
             <section className="homepage">
                 <div className='left'>
                     <h1>
-                        LANDING PAGE
+                    sua casa fora de casa.
                         </h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat itaque, explicabo eius laudantium fugit earum ratione delectus at laborum. Suscipit neque reiciendis facilis molestiae quo provident assumenda consequatur modi non.</p>          
+                    <p>Seja bem-vindo(a) à Friendly Host, a plataforma que conecta
+                    estudantes a famílias dispostas a fornecer moradia temporária em
+                    grandes centros. Estamos muito felizes em tê-lo(a) aqui!</p>          
                 </div>
                 <div className='right'>
                     <img src={Homeicon} alt="Icone House" />
