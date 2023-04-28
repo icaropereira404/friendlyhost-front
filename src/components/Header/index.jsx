@@ -3,6 +3,7 @@ import Logo from '../../assets/image4.png'
 import { SlMenu } from 'react-icons/sl'
 import { GrClose } from 'react-icons/gr'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
 
@@ -25,15 +26,16 @@ const Header = () => {
             </div>
             <nav className={menu ? 'nav active' : 'nav'}>
                 <ul>
-                    <a href="">
+                    <Link to="/" > 
                         <li>Home</li>
-                    </a>
-                    <a href="">
+                    </Link>
+                    
+                    <Link to="/contact" >
                         <li>Contato</li>
-                    </a>
-                    <a href="">
+                    </Link>
+                    <Link to="/about">
                         <li>Sobre nós</li>
-                    </a>
+                    </Link>
                 </ul>
             </nav>
                 <div onClick={toogleMenu} className="hamburguer">
