@@ -8,7 +8,7 @@ const Homepage = () => {
                 <div className='left'>
                     <h1>
                     sua casa fora de casa.
-                        </h1>
+                    </h1>
                     <p>Seja bem-vindo(a) à Friendly Host, a plataforma que conecta
                     estudantes a famílias dispostas a fornecer moradia temporária em
                     grandes centros. Estamos muito felizes em tê-lo(a) aqui!</p>          
