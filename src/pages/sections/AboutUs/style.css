@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.valores {
+    background-color: #0243DA;
+    height: 200px;
+    text-transform: capitalize;
+    color: #F7F7F7;
+    font-family: "Open", sans-serif;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.valores .container p {
+    width: 40%;
+    
+}
