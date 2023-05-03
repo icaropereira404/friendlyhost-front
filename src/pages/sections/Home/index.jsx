@@ -4,7 +4,7 @@ import Homeicon from '../../../assets/house.svg'
 const Homepage = () => {
     return (
         <div className="container">
-            <section className="homepage">
+            <section className="content">
                 <div className='left'>
                     <h1>
                     sua casa fora de casa.
