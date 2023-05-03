@@ -7,7 +7,7 @@ body{
 
 .valores {
     background-color: #0243DA;
-    height: 200px;
+    height: auto;
     text-transform: capitalize;
     color: #F7F7F7;
     font-family: "Open", sans-serif;
@@ -15,9 +15,61 @@ body{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 100%;
 }
 
-.valores .container p {
-    width: 40%;
-    
+.valores h1{
+    font-size: 2.10rem;
+}
+
+.valores .text-info {
+    width: 55%;
+}
+
+.valores .info {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    row-gap: 20px;
+    column-gap: 50px;
+}
+
+.valores .info .info-content {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 1rem;
+}
+
+.valores .info .info-content .number {
+    position: absolute;
+    top: 1rem;
+    left: -3rem;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.valores .info .info-content p {
+    font-size: .9rem;
+}
+
+@media (max-width: 900px) {
+    .valores .info{
+        grid-template-columns: 50% 50%;
+    }
+
+    .valores .text-info{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .valores .info{
+        grid-template-columns: 100%;
+    }
 }
