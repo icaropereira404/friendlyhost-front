@@ -1,12 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
-body{
-    margin: 0;
-    padding: 0;
-}
-
 .valores {
-    background-color: #0243DA;
+    background-color: #023AA8;
     height: auto;
     text-transform: capitalize;
     color: #F7F7F7;
@@ -16,14 +11,27 @@ body{
     flex-direction: column;
     gap: 20px;
     width: 100%;
+    position: relative;
 }
 
-.valores h1{
-    font-size: 2.10rem;
+.valores .border-right {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+
+.valores h1 {
+    font-size: 2.13rem;
+    z-index: 1;
 }
 
 .valores .text-info {
-    width: 55%;
+    width: 50%;
+    font-weight: bold;
+    z-index: 1;
 }
 
 .valores .info {
@@ -38,6 +46,7 @@ body{
     height: auto;
     position: relative;
     padding: 1rem;
+    
 }
 
 .valores .info .info-content .number {
@@ -46,15 +55,17 @@ body{
     left: -3rem;
     width: 50px;
     height: 50px;
-    background-color: red;
+    background-image: linear-gradient(180deg, #ffb629 0, #ffa537 10%, #ff9243 20%, #ff7e4b 30%, #ff6951 40%, #f25353 50%, #d93f53 60%, #c22f54 70%, #ad2355 80%, #9b1b56 90%, #8c1859 100%);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items:center;
+    font-weight: bold;
 }
 
 .valores .info .info-content p {
     font-size: .9rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 @media (max-width: 900px) {
@@ -72,4 +83,10 @@ body{
     .valores .info{
         grid-template-columns: 100%;
     }
+}
+
+@media (max-width: 550px) {
+     .valores .border-right {
+        display: none;
+     }   
 }
