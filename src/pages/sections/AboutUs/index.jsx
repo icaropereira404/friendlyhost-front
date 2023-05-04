@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import '../AboutUs/style.css'
 import Image from '../../../assets/quemsomos.svg'
+import Border from '../../../assets/border.png'
 
 const AboutUs = () => {
     return (
@@ -28,8 +29,9 @@ const AboutUs = () => {
 
             </div>
             <section className='valores'>
+                <img className='border-right' src={Border} alt="border-right" />
                 <h1>
-                    nossos valores
+                    nossos valores:
                 </h1>
                 <p className='text-info'>Na Friendly Host, nossos valores são a base de tudo o que fazemos.
                     Acreditamos em promover um mundo mais igualitário, justo e
@@ -37,6 +39,7 @@ const AboutUs = () => {
                     dos valores que são mais importantes para nós:</p>
                 <div className='info'>
                     <div className='info-content'>
+                        
                         <span className='number'>1</span>
                         <p>Inclusão: acreditamos que todos
                             devem ter acesso à educação,
