@@ -1,0 +1,38 @@
+.blue{
+    color: #0243da;
+}
+
+#formInput{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding: 2rem 0;
+}
+.input{
+    border-radius: 30px;
+    border: 1px solid #0243da;
+    padding: 1rem;
+    outline: none;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.input:focus{
+    border: 1px solid #0243da;
+}
+.input::placeholder{
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn{
+    background-color: #0243da;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
